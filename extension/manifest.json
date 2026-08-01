@@ -1,0 +1,10 @@
+{
+  "kind": "marinara.extension",
+  "version": 1,
+  "config": {
+    "name": "Marinara Docs Tutor Lorebook",
+    "description": "로컬 docs를 읽어 초보자용 지식 로어북을 생성하고 지정 캐릭터에 자동 장착합니다. 재실행 시 항목만 갱신됩니다 (멱등).",
+    "enabled": true,
+    "jsPath": "extension.js"
+  }
+}
