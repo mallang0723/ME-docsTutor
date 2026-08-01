@@ -43,6 +43,18 @@ echo "ENABLE_EXTERNAL_EXTENSIONS=true" >> .env
 ```
 
 Then start Marinara again.
+> **🐳 Using Docker?** — edit `docker-compose.yml` instead of `.env`.
+> Find the `environment:` line and add **one line** under it (match the
+> indentation of its neighbors):
+>
+> ```yaml
+>       - ENABLE_EXTERNAL_EXTENSIONS=true
+> ```
+>
+> Save, then run `docker compose up -d`.
+> If you access Marinara from another device's browser, also add
+> `- ADMIN_SECRET=yoursecret` in the same place (needed to open the Danger Zone).
+
 
 ### 2. Enable the in-app toggle
 

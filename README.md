@@ -40,6 +40,17 @@ echo "ENABLE_EXTERNAL_EXTENSIONS=true" >> .env
 ```
 
 그다음 마리나라를 다시 켜세요.
+> **🐳 도커로 쓰시는 경우** — `.env` 대신 `docker-compose.yml` 파일을 엽니다.
+> `environment:` 줄을 찾아 그 **아래에 한 줄만** 추가하세요 (다른 줄과 앞 칸을 맞춰서):
+>
+> ```yaml
+>       - ENABLE_EXTERNAL_EXTENSIONS=true
+> ```
+>
+> 저장한 뒤 `docker compose up -d` 를 실행하면 적용됩니다.
+> 다른 기기 브라우저로 접속해 쓰신다면 같은 자리에
+> `- ADMIN_SECRET=원하는비밀값` 도 한 줄 추가하세요 (위험 구역을 열 때 필요).
+
 
 ### ② 앱에서 확장 허용 켜기
 
