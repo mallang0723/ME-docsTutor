@@ -1,5 +1,7 @@
 # Marinara Docs Tutor 로어북 확장
 
+*[English guide here](./README.en.md)*
+
 Marinara Engine에 들어 있는 **공식 문서(docs)를 읽어 초보자용 지식 로어북을
 자동 생성**하고, 선택한 캐릭터에 장착해 주는 확장입니다.
 
