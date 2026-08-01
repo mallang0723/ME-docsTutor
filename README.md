@@ -48,9 +48,11 @@ echo "ENABLE_EXTERNAL_EXTENSIONS=true" >> .env
 
 ### ③ 확장 가져오기
 
+먼저 [**Releases 페이지**](../../releases/latest)에서
+`marinara-docs-tutor.zip` 을 내려받으세요 (압축을 풀 필요 없습니다).
+
 **Settings** → **Addons**(애드온) → **External Extensions**(외부 확장)에서
-**가져오기** 버튼으로 이 저장소의 `extension/` 폴더(또는 그 안의 두 파일)를
-선택합니다.
+**가져오기** 버튼으로 방금 받은 **zip 파일을 그대로** 선택합니다.
 
 ### ④ 승인하고 켜기 — 여기까지 해야 동작합니다
 

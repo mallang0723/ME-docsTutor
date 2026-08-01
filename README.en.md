@@ -50,8 +50,11 @@ Then start Marinara again.
 
 ### 3. Import the extension
 
-**Settings → Addons → External Extensions** → import this repository's
-`extension/` folder (or the two files inside it).
+First download `marinara-docs-tutor.zip` from the
+[**Releases page**](../../releases/latest) — no need to unzip it.
+
+**Settings → Addons → External Extensions** → import the **zip file
+as-is**.
 
 ### 4. Approve and enable — nothing runs until you do this
 
