@@ -14,11 +14,18 @@ the actual documentation.
 - Re-running **updates the entries in place** (no duplicates)
 - Lorebooks this extension did not create are **never touched**
 
-## Requirements
+## Supported versions
 
-- **Marinara Engine v2.5.0** — installation and runtime verified on this release.
-- 2.4.x uses the same extension system but has not been run-tested.
-  Stable 2.3.4 and earlier do not work (different extension system).
+| Item | Details |
+|---|---|
+| This extension | v1.3.0 |
+| Verified host | **Marinara Engine 2.5.0** |
+| Verified docs | The official docs bundled with that Marinara 2.5.0 (`docs/`, English originals) |
+| Install range | The manifest sets no minimum version. 2.4.x uses the same extension system but is untested; stable 2.3.4 and earlier do not work (different extension system) |
+| Verified on | 2026-10-20 |
+
+- **Installation and runtime were verified on Marinara Engine 2.5.0 only.** 2.4.x and releases newer than 2.5.0 may install but are untested; changes to the extension system or the docs layout can break it. If something goes wrong, please include your Marinara version in the report.
+- The docs are read from your installed Marinara, so updating Marinara can change the result.
 
 ## Install (four safety gates)
 
